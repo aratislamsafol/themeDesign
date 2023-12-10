@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto+Mono:wght@300&family=Roboto:wght@300;400&family=Rubik:wght@300&display=swap');
+:root{
+    --size: 30px;
+    --color: gray;
+    --common_color: #4F868E;
+    --banner_para_color:#475569;
+    --box_shadow: 0px 1px 2px 1px #4F868E3D;
+    --heading_font_color:#293039;
+    --dark_heading_font_color: #0F172A;
+
+    /* navbar Typography */
+    --menu_active_background: #E3FBFF;
+    --menu_item: #0F172A;
+    --menu_active_item: #4F868E;
+    --arrow_back: #0F172A;
+    --nav_font_family: Montserrat;
+    --nav_font_size: 14px;
+    --nav_font_weight: 400;
+    --nav_active_font_weight: 500;
+    --nav_active_font_weight_big: 600;
+    --nav_line_height: 24px;
+    --nav_letter_spacing: 0.5px;
+    --nav_user_button_height: 36px;
+    --nav_user_button_height_big: 48px;
+    --nav_appointment_font_family: Roboto;
+    /* Banner */
+    --banner_heading_font_size:32px; 
+    --banner_heading_font_weight: 700;
+    --banner_heading_line_height: 35px;
+    --banner_heading_letter_spacing: 0em;
+    --banner_para_font_size: 16px;
+    --banner_para_font_weight: 400;
+    --banner_para_line_height: 22px;
+    --banner_start_button_font_family: Roboto;
+    --banner_start_button_font_size: 24px;
+    --banner_start_button_font-weight: 700;
+    --banner_start_button_line_height: 24px;
+    --banner_start_button_letter_spacing: 0.5px;  
+    /* Achievement */
+    --achievement_title_font_family: Roboto;
+    --achievement_title_font_weight: 700;
+    --achievement_title_font_size:32px;
+    --achievement_title_line_height: 35.2px;
+        /* big display title */
+    --achievement_title_big_font_family: Montserrat;
+    --achievement_title_big_font_size: 48px;
+    --achievement_title_big_font_weight: 800;
+    --achievement_title_big_line_height: 52.8px;
+
+    --achievement_content_box_width: 361px;
+    --achievement_content_box_height: 278px;
+    --achievement_content_box_padding: 32px, 16px, 32px, 16px;
+    --achievement_content_box_border_radius: 10px;
+        /* big display content_box */
+    --achievement_content_box_big_width: 321px;
+    --achievement_content_box_big_height: 316px;
+    --achievement_content_box_big_padding: 32px;
+ 
+    --achievement_content_box_img_size: 64px;
+    --achievement_content_box_big_img_size: 90px;
+    --achievement_content_title_font_size: 18px;
+    --achievement_content_title_font_family: Montserrat;
+    --achievement_content_title_font_weight: 600;
+    --achievement_content_title_line_height: 30px;
+    /* big content title */
+    --achievement_content_title_big_font_size: 24px;
+    --achievement_content_title_big_line_height: 30px;
+
+    --achievement_content_para_font_family: Montserrat;
+    --achievement_content_para_font_weight: 400;
+    --achievement_content_para_font_size: 16px;
+    --achievement_content_para_line_height: 22.4px;
+     /* big content title para */
+     --achievement_content_para_big_font_size: 18px;
+     --achievement_content_para_big_line_height: 28px;
+ 
+     /* working Time */
+    --working_time_content_width: 361px;
+    --working_time_content_height: 294px;
+    --working_time_title_font_family: Montserrat;
+    --working_time_title_font_size: 40px;
+    --working_time_title_font_weight: 700;
+    --working_time_title_line_height: 44px;
+    /* working_time_title big Display */
+    --working_time_title_big_font_size: 48px;
+    --working_time_title_big_font_weight: 800;
+    --working_time_title_big_line_height: 52.8px;
+
+    --working_time_para_font_size: 16px;
+    --working_time_para_font_weight: 400;
+    --working_time_para_line_height: 22.4px;
+    /* working time para big display */
+    --working_time_para_big_font_size: 18px;
+    --working_time_para_big_line_height: 28.8px;
+
+    --working_time_load_btn_width: 154px;
+    --working_time_load_btn_height: 48px;
+    --working_time_loading_btn_font_size: 16px;
+    --working_time_loading_btn_font_weight: 500;
+    --working_time_loading_btn_line_height: 24px;
+    --working_time_loading_btn_letter_spacing:0.5px;
+    /* working time load big display */
+    --working_time_load_btn_big_width: 179px;
+    --working_time_load_btn_big_height: 56px;
+    --working_time_loading_btn_big_font_size: 20px;
+
+    --working_time_img_width: 361px;
+    --working_time_img_height: 252px;
+    --working_time_star_icon_height: 176px;
+    --working_time_star_icon_width: 176px;
+
+    /* Consultant */
+    --consultant_background: #4F868E;
+    --consultant_font_family: Montserrat;
+    --consultant_h3_font_size: 56px;
+    --consultant_h3_font_weight: 800;
+    --consultant_h3_line_height: 44px;
+    --consultant_h3_letter_spacing: 0em;
+
+    --consultant_para_font_size: 18px;
+    --consultant_para_font_weight: 600;
+    --consultant_para_line_height: 29px;
+    --consultant_para_letter_spacing: 0em;
+
+    /* Consultant big Display */
+    /* --consultant_font_family: Roboto; */
+    --consultant_para_big_font_size: 56px;
+    --consultant_para_big_font_weight: 800;
+    --consultant_para_big_line_height: 62px;
+    --consultant_para_big_letter_spacing: 0em;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Main Layout */
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}
+.wrapper>section{
+    border-bottom: 1px solid gray;
+}
+.container{
+    max-width: 1280px;
+    padding: 18px 16px;
+    display: block;
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 1200px) {
+    .container{
+        padding: 0 80px;
+    }
+}
