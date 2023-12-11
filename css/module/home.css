@@ -282,7 +282,7 @@
   font-weight: var(--working_time_para_font_weight);
   line-height: var(--working_time_para_line_height);
  }
- .working_time_content .load_btn{
+ .working_time_content .load_btn, .learn_btn{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -327,6 +327,7 @@
     padding: 48px 0;
     display: flex;
     flex-direction: column;
+    gap: 32px;
     color: #FFFFFF;
  }
  .consultant_info{
@@ -337,6 +338,7 @@
  .consultant_name_degree{
     display: flex;
     flex-direction: column;
+    gap: 10px;
     font-family: var(--consultant_font_family);
  }
  .consultant_name_degree h3{
@@ -349,6 +351,35 @@
     font-size: var(--consultant_para_font_size);
     font-weight: var(--consultant_para_font_weight);
     line-height: var(--consultant_para_line_height);
-    letter-spacing: var(--consultant_para_letter_spacing);
  }
+ .consultant_details p{
+    color:#FFFFFF;
+    font-size: var(--consultant_details_p_font_size);
+    font-family: var(--consultant_details_p_font_family);
+    font-weight: var(--consultant_details_p_font_weight);
+    line-height: var(--consultant_details_p_line_height);
 
+ }
+ .learn_btn{
+  gap: 14px;
+  width: var(--consultant_learn_btn_width);
+  height: var(--consultant_learn_btn_height);
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  border-radius: 8px;
+  background: transparent;
+  font-family: var(--consultant_learn_btn_font_family);
+  font-size: var(--consultant_learn_btn_font_size);
+  font-weight: var(--consultant_learn_btn_font_weight);
+  line-height: var(--consultant_learn_btn_line_height);
+  letter-spacing: var(--consultant_learn_btn_letter_spacing);
+ }
+ .consultant_img{
+    width: var(--consultant_img_width);
+    height: var(--consultant_img_height);
+ }
+ .consultant_img img{
+    height: 100%;
+    width: 100%;
+    
+ }

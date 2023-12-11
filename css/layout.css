@@ -112,22 +112,35 @@
     /* Consultant */
     --consultant_background: #4F868E;
     --consultant_font_family: Montserrat;
-    --consultant_h3_font_size: 56px;
+    --consultant_h3_font_size: 40px;
     --consultant_h3_font_weight: 800;
     --consultant_h3_line_height: 44px;
     --consultant_h3_letter_spacing: 0em;
 
     --consultant_para_font_size: 18px;
     --consultant_para_font_weight: 600;
-    --consultant_para_line_height: 29px;
-    --consultant_para_letter_spacing: 0em;
+    --consultant_para_line_height: 28.8px;
 
     /* Consultant big Display */
     /* --consultant_font_family: Roboto; */
     --consultant_para_big_font_size: 56px;
     --consultant_para_big_font_weight: 800;
     --consultant_para_big_line_height: 62px;
-    --consultant_para_big_letter_spacing: 0em;
+    --consultant_details_p_font_size: 16px;
+    --consultant_details_p_font_weight: 400;
+    --consultant_details_p_line_height: 25.6px;
+    --consultant_details_p_font_family: Montserrat;
+    --consultant_learn_btn_width: 140px;
+    --consultant_learn_btn_height: 40px;
+    --consultant_learn_btn_font_family: Roboto;
+    --consultant_learn_btn_font_size: 14px;
+    --consultant_learn_btn_font_weight: 500;
+    --consultant_learn_btn_line_height: 24px;
+    --consultant_learn_btn_letter_spacing: 0.5px;
+    --consultant_img_width: 361px;
+    --consultant_img_height: 440px;
+
+
 
 }
 *{
