@@ -1,3 +1,6 @@
+body{
+  overflow: hidden;
+}
 
 .navbar_item{
   font-family: var(--nav_font_family);
