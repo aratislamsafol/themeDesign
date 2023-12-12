@@ -7,6 +7,9 @@
     --box_shadow: 0px 1px 2px 1px #4F868E3D;
     --heading_font_color:#293039;
     --dark_heading_font_color: #0F172A;
+    --article_item_border_color: #E2E8F0;
+    ;
+    --footer_menu_color: #475569;
 
     /* navbar Typography */
     --menu_active_background: #E3FBFF;
@@ -139,9 +142,89 @@
     --consultant_learn_btn_letter_spacing: 0.5px;
     --consultant_img_width: 361px;
     --consultant_img_height: 440px;
+    /* big display */
+    --consultant_big_img_width: 623px;
+    --consultant_big_img_height: 760px;
+    --consultant_info_width: 576px;
 
+    --consultant_big_h3_font_size: 48px;
+    --consultant_big_h3_line_height: 52.8px;
 
+    --consultant_big_para_font_size: 24px;
+    --consultant_big_para_font_weight: 600;
+    --consultant_bog_para_line_height: 38.4px;
 
+    --consultant_details_big_p_font_size: 18px;
+    --consultant_details_big_p_line_height: 28.8px;
+    --consultant_details_big_p_font_family: Roboto;
+
+    --consultant_big_learn_btn_width: 209px;
+    --consultant_big_learn_btn_height: 56px;
+    --consultant_big_learn_btn_font_family: Montserrat;
+    --consultant_big_learn_btn_font_size: 20px;
+    --consultant_big_learn_btn_font_weight: 600;
+
+    /* article */
+    --article_font_family: Montserrat;
+    --article_h3_font_size: 32px;
+    --article_h3_font_weight: 500;
+    --article_h3_line_height: 35px;
+    --article_h3_letter_spacing: 0em;
+    --article_title_button_font_size: 16px;
+    --article_title_button_font_weight: 500;
+    --article_title_button_line_height: 24px;
+    --article_title_button_letter_spacing: 0.5px;
+    --article_item_img_height: 220px;  
+    --article_item_details_h5_font_size: 24px;
+    --article_item_details_h5_font_weight: 700;
+    --article_item_details_h5_line_height: 26px;                        
+    --article_item_details_h5_letter_spacing: 0em;
+    --article_item_details_p_font_size: 18px;
+    --article_item_details_p_font_weight: 400;
+    --article_item_details_p_line_height: 29px;
+    --article_item_details_p_letter_spacing: 0em;
+    --article_item_mobile_read_btn_width: 153px;
+    --article_item_mobile_read_btn_height: 48px;
+    /* article big display */
+    --article_title_h3_font_size: 48px;
+    --article_title_h3_font_weight: 800;
+    --article_title_h3_line_height: 52.8px;
+    --article_item_img_width: 410.67px; 
+    --article_title_big_button_font_family: Roboto;
+    --article_title_big_button_font_size: 20px;
+    --article_item_big_read_btn_width: 166px;
+    --article_item_big_read_btn_height: 48px;
+
+    /* Popular Question */
+    --question_content_img_height: 337px;
+    --question_content_img_width: 351.74px;
+    --question_font_family: Montserrat;
+    --question_font_size: 32px;
+    --question_font_weight: 700;
+    --question_line_height: 35.2px;
+    --question_acc_h4_font_size: 18px;
+    --question_acc_h4_font_weight: 400;
+    --question_acc_h4_line_height: 28.8px;
+    --question_acc_active_bg:#e7e4e4;
+    --question_acc_img_width: 490px;
+    --question_acc_img_height: 511.43px;
+    
+    /* Big Display Question */
+    --question_acc_big_font_size: 48px;
+    --question_acc_big_font_weight: 800;
+    --question_acc_big_line_height: 52.8px;
+    --question_acc_big_h4_font_size: 24px;
+    --question_acc_big_h4_font_weight: 600;
+    --question_acc_big_h4_line_height: 38.4px;
+
+    /* Footer */
+    --footer_item_a_font_family: Roboto;
+    --footer_item_a_font_size: 16px;
+    --footer_item_a_font_weight: 400;
+    --footer_item_a_line_height: 22px; 
+    --footer_social_icon_height: 24px;
+    --footer_social_icon_width: 24px;
+    --footer_social_icon_font_size: 16px;
 }
 *{
     margin: 0;
