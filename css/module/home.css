@@ -1,7 +1,6 @@
 body{
-  overflow: hidden;
+  overflow: scroll;
 }
-
 .navbar_item{
   font-family: var(--nav_font_family);
   display: flex;
