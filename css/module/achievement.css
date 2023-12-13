@@ -1,0 +1,151 @@
+/* achievement */
+.achievement{ 
+    text-align: center;
+  }
+  .title_big{
+    display: none;
+  }
+  .achievement .title{
+    margin-top: 43px;
+    font-family: var(--achievement_title_font_family);
+    font-size: var(--achievement_title_font_size);
+    font-weight: var(--achievement_title_font_weight);
+    line-height: var(--achievement_title_line_height);
+  }
+  .achievement_content{
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+    margin-top: 23px; 
+    text-align: center;
+    align-items: center;
+  }
+  .ac_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    height: var(--achievement_content_box_height);
+    width: var(--achievement_content_box_width);
+    padding: var(--achievement_content_box_padding); 
+    box-shadow: var(--box_shadow);
+    border-radius: var(--achievement_content_box_border_radius);
+  }
+  .ac_content_image{
+    margin-top:32px;
+    width: var(--achievement_content_box_img_size);
+    height: var(--achievement_content_box_img_size);
+    text-align: center;
+  }
+  .ac_content_image img{
+    height: 100%;
+    width: 95%;
+  }
+  .ac_info{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    padding: 0 16px;
+  }
+  .ac_info_heading{
+    width: 222px;
+    height: 30px;
+  }
+  .ac_info_heading h5{
+    color: var(--heading_font_color);
+    font-size: var(--achievement_content_title_font_size);
+    font-weight: var(--achievement_content_title_font_weight);
+    font-family: var(--achievement_content_title_font_family);
+    line-height: var(--achievement_content_title_line_height);
+  }
+  .certified_para p{
+      font-family: var(--achievement_content_para_font_family);
+      font-weight: var(--achievement_content_para_font_weight);
+      font-size: var(--achievement_content_para_font_size);
+      line-height: var(--achievement_content_para_line_height);
+  }
+
+
+  
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .achievement{
+    text-align: start;
+  }
+  .achievement .title{
+    display: none;
+  }
+  .achievement .title_big {
+    display: block;
+    margin-top: 40px;
+    text-align: center;
+    font-family: var(--achievement_title_big_font_family);
+    font-size: var(--achievement_title_big_font_size );
+    font-weight: var(--achievement_title_big_font_weight);
+    line-height: var(--achievement_title_big_line_height);
+  }
+  .achievement_content{
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 80px;
+    text-align: start;
+    gap: 0;
+  }
+  .ac_item{
+    align-items: start;
+    gap: 16px;
+    height: var(--achievement_content_box_big_height);
+    width: var(--achievement_content_box_big_width);
+    padding: var(--achievement_content_box_big_padding); 
+    border-radius: var(--achievement_content_box_border_radius);
+  }
+  .ac_content_image{
+    width: var(--achievement_content_box_big_img_size);
+    height: var(--achievement_content_box_big_img_size);
+  }
+  .ac_info{
+    align-items: start;
+    padding: 0;
+    height: 130px;
+    width: 321px;
+  }
+  .ac_info_heading{
+    width: 321px;
+    height: 30px;
+  }
+  .ac_info_heading h5{
+    font-size: var(--achievement_content_title_big_font_size);
+    line-height: var(--achievement_content_title_big_line_height);
+  }
+  .certified_para p{
+    font-family: var(--achievement_content_para_font_family);
+    font-weight: var(--achievement_content_para_font_weight);
+    font-size: var(--achievement_content_para_font_size);
+    line-height: var(--achievement_content_para_line_height);
+  }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+}
+@media only screen and (min-width: 1400px) {
+
+}

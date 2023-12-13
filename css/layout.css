@@ -238,12 +238,9 @@
     width: 100%;
     margin: auto;
 }
-.wrapper>section{
-    border-bottom: 1px solid gray;
-}
 .container{
     max-width: 1280px;
-    padding: 18px 16px;
+    padding: 18px 6px;
     display: block;
 }
 /* Medium devices (landscape tablets, 768px and up) */
