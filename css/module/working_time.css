@@ -19,7 +19,6 @@
 }
 .working_time_title{
     color: var(--dark_heading_font_color);
-    max-height: 88px;
     font-family: var(--working_time_title_font_family);
     font-size: var(--working_time_title_font_size);
     font-weight: var(--working_time_title_font_weight);

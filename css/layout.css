@@ -107,7 +107,7 @@
     --working_time_load_btn_big_height: 56px;
     --working_time_loading_btn_big_font_size: 20px;
 
-    --working_time_img_width: 361px;
+    --working_time_img_width: 220px;
     --working_time_img_height: 252px;
     --working_time_star_icon_height: 176px;
     --working_time_star_icon_width: 176px;
@@ -140,7 +140,8 @@
     --consultant_learn_btn_font_weight: 500;
     --consultant_learn_btn_line_height: 24px;
     --consultant_learn_btn_letter_spacing: 0.5px;
-    --consultant_img_width: 361px;
+    /* consultant_img_width: 361px */
+    --consultant_img_width: 220px;
     --consultant_img_height: 440px;
     /* big display */
     --consultant_big_img_width: 623px;
@@ -175,6 +176,7 @@
     --article_title_button_line_height: 24px;
     --article_title_button_letter_spacing: 0.5px;
     --article_item_img_height: 220px;  
+    --article_item_mob_img_width: 220px;
     --article_item_details_h5_font_size: 24px;
     --article_item_details_h5_font_weight: 700;
     --article_item_details_h5_line_height: 26px;                        
@@ -197,7 +199,8 @@
 
     /* Popular Question */
     --question_content_img_height: 337px;
-    --question_content_img_width: 351.74px;
+    /* width given 351.74px; */
+    --question_content_img_width: 220px;
     --question_font_family: Montserrat;
     --question_font_size: 32px;
     --question_font_weight: 700;
@@ -206,7 +209,8 @@
     --question_acc_h4_font_weight: 400;
     --question_acc_h4_line_height: 28.8px;
     --question_acc_active_bg:#e7e4e4;
-    --question_acc_img_width: 490px;
+    /*  --question_acc_img_width: 490px; */
+    --question_acc_img_width: 220px;
     --question_acc_img_height: 511.43px;
     
     /* Big Display Question */
@@ -229,6 +233,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 /* Main Layout */
 .wrapper{
@@ -240,7 +245,7 @@
 }
 .container{
     max-width: 1280px;
-    padding: 18px 6px;
+    padding: 18px 0;
     display: block;
 }
 /* Medium devices (landscape tablets, 768px and up) */

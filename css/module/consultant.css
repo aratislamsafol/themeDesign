@@ -108,8 +108,8 @@
 }
 
   .consultant_img{
-    width: var(--consultant_big_img_width);
-    height: var(--consultant_big_img_height);
+    max-width: var(--consultant_big_img_width);
+    max-height: var(--consultant_big_img_height);
     border-radius: 80px, 0px, 80px, 0px;
   }     
  
