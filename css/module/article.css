@@ -23,7 +23,7 @@
  }
  .article_title .article_view_btn_mobile, .article_item .article_item_mobile_read_btn{
     color: var(--common_color);
-    width: var(--article_item_mobile_read_btn_width);
+    width: var (--article_item_mobile_read_btn_width);
     height: var(--article_item_mobile_read_btn_height);
     padding:12px 0 12px 0;
     border: none;
@@ -80,7 +80,6 @@
     margin-left: 16px;
  }
 
- 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 

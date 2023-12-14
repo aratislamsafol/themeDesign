@@ -233,12 +233,14 @@
     /* ==================== About ====================== */
     --about_consultant_details_p_color: #061C3D;
     --about_consultant_img_bg: transparent;
-    --about_page_header_height: 177px;
-    --about_page_header_h3_font_size: 48px;
-    --about_page_header_h3_font_weight: 800;
+    --about_page_header_h3_font_size: 32px;
+    --about_page_header_big_h3_font_size: 48px;
+    --about_page_header_h3_font_weight: 600;
+    --about_page_header_big_h3_font_weight: 800;
     --about_page_header_h3_line_height: 53px;
     --about_page_header_h3_color: #0F172A;
-    --about_page_header_page_title_font_size: 24px;
+    --about_page_header_page_title_font_size: 18px;
+    --about_page_header_big_page_title_font_size: 24px;
     --about_page_header_page_title_font_weight: 600;
     --about_page_header_page_title_line_height: 30px;
 
@@ -276,6 +278,14 @@
     /* about person big display */
     --person_items_big_width: 512px;
 
+    /* common banner */
+    --common_banner_font_family: Montserrat;
+    --common_banner_p_font_size: 14px;
+    --common_banner_big_p_font_size: 18px;
+    --common_banner_p_font_weight: 400;
+    --common_banner_p_line_height: 29px;
+    --common_banner_p_letter_spacing: 0.5px;
+    
     /* mobile common */
     --content_margin_top: 48px;
     --heading_font_family: Montserrat;
@@ -297,6 +307,9 @@
     --paragraph_big_font_size: 18px;
     --paragraph_big_font_weight: 400;
     --paragraph_big_line_height: 28.8px; 
+
+
+
 }
 *{
     margin: 0;

@@ -1,0 +1,122 @@
+.therapy_title h3{
+    margin-top: 32px;
+    font-size: var(--heading_font_size);
+    font-weight:var(--heading_font_weight);
+    line-height: var(--heading_line_height);
+}
+.therapy_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 40px;
+}
+.therapy_item, .therapy_item_back{
+    padding: 40px;
+    border-radius: 32px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 24px;
+    background: linear-gradient(270deg, rgba(79, 134, 142, 0.13) 0%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0px 1px 2px 1px #4F868E24;
+}
+
+.therapy_content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.therapy_details{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.therapy_details h5{
+    color: var(--dark_heading_font_color);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.therapy_details p{
+    color:  #000000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+.therapy_img img{
+    height: 100%;
+    width: 100%;
+}
+.article_item_big_read_btn{
+    color: var(--common_color);
+    text-align: left;
+    width: var (--article_item_mobile_read_btn_width);
+    height: var(--article_item_mobile_read_btn_height);
+    padding:12px 0 12px 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: var(--article_title_button_font_size);
+    font-weight: var(--article_title_button_font_weight);
+    line-height: var(--article_title_button_line_height);
+    letter-spacing: var(--article_title_button_letter_spacing); 
+ }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .therapy_title h3{
+        margin-top: 80px;
+        font-size: var(--heading_big_font_size);
+        font-weight:var(--heading_big_font_weight);
+        line-height: var(--heading_big_line_height);
+    }
+    .therapy_wrapper{
+        gap: 40px;
+    }
+    .therapy_item, .therapy_item_back{
+        grid-template-columns: auto auto;
+    }
+    .therapy_item_back .therapy_content{
+        grid-column: 1/2;
+        grid-row: 1/1;
+    }
+    .therapy_item_back .therapy_content{
+        grid-column: 2/-1;
+        grid-row: 1/1;
+    }
+    .therapy_img{
+        min-width: 374px;
+        min-height: 374px;
+        border-radius: 32px;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+}
+@media only screen and (min-width: 1400px) {
+
+}

@@ -1,0 +1,55 @@
+
+.banner_items{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.common_banner_img{
+    max-width: 1280px;
+    min-width: 200px;
+    max-height: 510px;
+    border-radius: 40px
+}
+.common_banner_img img{
+    height: 100%;
+    width: 100%;
+}
+.banner .common_banner_content p{
+    font-family: var(--common_banner_font_family);
+    font-size: var(--common_banner_p_font_size);
+    font-weight: var(--common_banner_p_font_weight);;
+    line-height: var(--common_banner_p_line_height);;
+    letter-spacing: var(--common_banner_p_letter_spacing);;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) { 
+    .banner_items{
+        gap: 40px;
+    }
+    .banner .common_banner_content p{
+        font-family: var(--common_banner_font_family);
+        font-size: var(--common_banner_big_p_font_size);;
+        font-weight: var(--common_banner_p_font_weight);;
+        line-height: var(--common_banner_p_line_height);;
+        letter-spacing: var(--common_banner_p_letter_spacing);;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+}
+@media only screen and (min-width: 1400px) {
+
+}
