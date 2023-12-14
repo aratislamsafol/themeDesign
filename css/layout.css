@@ -229,11 +229,78 @@
     --footer_social_icon_height: 24px;
     --footer_social_icon_width: 24px;
     --footer_social_icon_font_size: 16px;
+
+    /* ==================== About ====================== */
+    --about_consultant_details_p_color: #061C3D;
+    --about_consultant_img_bg: transparent;
+    --about_page_header_height: 177px;
+    --about_page_header_h3_font_size: 48px;
+    --about_page_header_h3_font_weight: 800;
+    --about_page_header_h3_line_height: 53px;
+    --about_page_header_h3_color: #0F172A;
+    --about_page_header_page_title_font_size: 24px;
+    --about_page_header_page_title_font_weight: 600;
+    --about_page_header_page_title_line_height: 30px;
+
+    --certificate_title_font_family: Roboto;
+    --certificate_title_font_weight: 700;
+    --certificate_title_font_size:32px;
+    --certificate_title_line_height: 35.2px;
+
+    --certificate_title_p_font_size: 16px;
+    --certificate_title_p_font_weight: 400;
+    --certificate_title_p_line_height: 25.6px;
+    --certificate_title_p_font_family: Montserrat;
+
+    --certificate_item_img_width: 380px;
+    --certificate_item_img_height: 268px;
+
+    /* certificated big display */
+    --certificate_title_big_font_family: Montserrat;
+    --certificate_title_big_font_weight: 800;
+    --certificate_title_big_font_size:48px;
+    --certificate_title_big_line_height: 52.8px;
+
+    --certificate_title_big_p_font_size: 18px;
+    --certificate_title_big_p_line_height: 28.8px;
+    --certificate_title_big_p_font_family: Montserrat;
+    
+    /* Working Process */
+    --working_process_img_width: 612px;
+    --working_process_img_height: 829px;
+    --working_process_way_width: 638px;
+
+    /* about person */
+    --photos_gallery_title_width: 850px;
+
+    /* about person big display */
+    --person_items_big_width: 512px;
+
+    /* mobile common */
+    --content_margin_top: 48px;
+    --heading_font_family: Montserrat;
+    --heading_font_size: 32px;
+    --heading_font_weight: 700;
+    --heading_line_height: 35.2px;
+    --heading5_font_size: 18px;
+    --paragraph_font_size: 14px;
+    --paragraph_font_weight: 400;
+    --paragraph_line_height: 28.8px; 
+
+    /* big display common */
+    --content_big_margin: 80px 0;
+    --heading_big_font_family: Montserrat;
+    --heading_big_font_size: 48px;
+    --heading_big_font_weight: 800;
+    --heading_big_line_height: 53px;
+    --heading5_big_font_size: 24px;
+    --paragraph_big_font_size: 18px;
+    --paragraph_big_font_weight: 400;
+    --paragraph_big_line_height: 28.8px; 
 }
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 /* Main Layout */
 .wrapper{

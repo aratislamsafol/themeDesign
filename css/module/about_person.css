@@ -1,3 +1,11 @@
+.photos_gallery_title{
+    max-width: var(--photos_gallery_title_width);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+    margin: auto;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -10,10 +18,9 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    /* question */ 
-}
+@media only screen and (min-width: 768px) { 
 
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {

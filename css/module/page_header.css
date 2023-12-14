@@ -1,0 +1,29 @@
+.page_header{
+    height: var(--about_page_header_height);
+    background: linear-gradient(180deg, rgba(79, 134, 142, 0.2) 0%, rgba(79, 134, 142, 0) 100%);
+}
+.page_title{
+    display: flex;
+    justify-content: space-between;
+    margin: 62px 0; 
+}
+.page_position_show{
+    display: flex;
+    gap: 3px;
+}
+.page_position_show .home_page{
+    color: var(--common_color);
+}
+.page_header h3{
+    color: var(--about_page_header_h3_color);
+    font-size: var(--about_page_header_h3_font_size);
+    font-weight: var(--about_page_header_h3_font_weight);
+    line-height: var(--about_page_header_h3_line_height);
+    letter-spacing: 0em;
+}
+.page_title{
+    font-size: var(--about_page_header_page_title_font_size);
+    font-weight: var(--about_page_header_page_title_font_weight);
+    line-height: var(--about_page_header_page_title_line_height);
+    letter-spacing: 0em;
+}
