@@ -1,0 +1,103 @@
+.contact_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.contact_left{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.contact_info h3{
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 53px;
+    letter-spacing: 0em;
+    color: var(--common_color)
+}
+.contact_info p{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+}
+.contact_way{
+    grid-template-columns: auto;
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 32px;
+}
+.contact_item{
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    box-shadow: 0px 1px 2px 1px #4F868E24;
+}
+.contact_item h3 i{
+    font-size: 32px;
+    color: var(--common_color);
+}
+.contact_right img{
+    width: 100%;
+    height: 100%;
+}
+.contact_path{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.contact_path h3{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+}
+.contact_main_path p{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .contact_wrapper{
+        flex-direction: row;
+    }
+    .contact_left{
+        width: 45.94%;
+    }
+    .contact_right{
+        width: 51.71%;
+    } 
+    .contact_way{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        gap: 32px;
+    }
+
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+}
+@media only screen and (min-width: 1400px) {
+
+}
