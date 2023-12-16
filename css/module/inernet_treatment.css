@@ -1,0 +1,59 @@
+.internet_content p{
+    font-family: var(--diff_areas_name_p_font_family);
+    font-size: var(--diff_areas_name_p_font_size);
+    font-weight: var(--diff_areas_name_p_font_weight);
+    line-height: var(--diff_areas_name_p_line_height);
+    letter-spacing: var(--diff_areas_name_p_letter_spacing);
+}
+
+.internet_treatment_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.internet_treatment_wrapper{
+    margin: 32px 0;
+}
+.internet_title h3{
+    font-family: var(--diff_area_content_font_family);
+    font-size: var(--diff_area_content_font_size);;
+    font-weight: var(--diff_area_content_font_weight);;
+    line-height: var(--diff_area_content_line_height);;
+    letter-spacing: 0em;
+    color: var(--dark_heading_font_color);
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .internet_treatment_wrapper{
+        gap: 32px;
+    }
+    .internet_treatment_wrapper{
+        margin: 80px 0;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+}
+@media only screen and (min-width: 1400px) {
+
+}

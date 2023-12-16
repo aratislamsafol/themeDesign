@@ -55,6 +55,8 @@
     width: 100%;
 }
 .article_item_big_read_btn{
+    font-family: Montserrat;
+    text-decoration: none;
     color: var(--common_color);
     text-align: left;
     width: var (--article_item_mobile_read_btn_width);

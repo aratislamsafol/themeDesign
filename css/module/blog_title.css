@@ -1,0 +1,84 @@
+.quotes{
+    border-radius: 100px 0px 100px 0px;
+    background: #C3EFF5;
+    display: flex;
+    gap: 12px;
+    padding: 40px 45px;
+    line-height: 36px;
+}
+
+.quotes h4{
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.quotes p{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+
+ }
+ 
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+ 
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) { 
+    .quotes{
+        padding: 58px 52px;
+    }
+    .quotes h4{
+        font-size: 20px;
+    }
+    .quotes p{
+        font-size: 16px;
+    }
+    .blog_subtitle{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        color: var(--dark_heading_font_color);
+    }
+    .blog_subtitle h3{
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .blog_subtitle p{
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+    }
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+ 
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+   
+ }
+ @media only screen and (min-width: 1400px) {
+ 
+ }
+
+

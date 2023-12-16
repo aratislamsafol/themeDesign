@@ -1,0 +1,28 @@
+.popular_tags, .related_tags{
+    display: flex;
+    flex-direction: column;
+    gap: 32px
+}
+.popular_tags h3, .related_tags h3{
+    font-family: Montserrat;
+    font-size: var(--card_h3_font_size);
+    font-weight: var(--card_h3_font_weight);
+    line-height: var(--card_h3_line_height);
+    letter-spacing: 0em;
+}
+.all_tags{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.all_tags a{
+    color: var(--tag_color);
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 1px solid #C9CED3;
+    font-size: var(--cat_p_font_size);
+    font-weight: var(--tag_font_weight);
+    line-height: var(--cat_p_line_height);
+}

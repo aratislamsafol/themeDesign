@@ -1,0 +1,26 @@
+.category{
+    font-family: Montserrat;
+}
+.category h3{
+    font-size: var(--card_h3_font_size);
+    font-weight: var(--card_h3_font_weight);
+    line-height: var(--card_h3_line_height);
+    letter-spacing: 0em;
+}
+.category .category_items{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 20px;
+}
+.cat_item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cat_item p{
+    font-size: var(--cat_p_font_size);
+    font-weight: var(--cat_p_font_weight);
+    line-height: var(--cat_p_line_height);
+    letter-spacing: 0em;
+}

@@ -38,7 +38,7 @@
     align-items: center;
     gap: 12px;
     text-align: center;
-    width: 225px;
+    /* width: 225px; */
   }
   .appointment_btn{
     grid-column: 1/1;

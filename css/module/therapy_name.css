@@ -1,0 +1,82 @@
+.diff_areas_name{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: space-between;
+    gap: 20px;
+    grid-column-gap: 10px;
+}
+.diff_areas_name p, .more_info p{
+    font-family: var(--diff_areas_name_p_font_family);
+    font-size: var(--diff_areas_name_p_font_size);
+    font-weight: var(--diff_areas_name_p_font_weight);
+    line-height: var(--diff_areas_name_p_line_height);
+    letter-spacing: var(--diff_areas_name_p_letter_spacing);
+}
+.diff_item{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap:8px;
+}
+.diff_area_content h4{
+    font-family: var(--diff_area_content_font_family);
+    font-size: var(--diff_area_content_font_size);;
+    font-weight: var(--diff_area_content_font_weight);;
+    line-height: var(--diff_area_content_line_height);;
+    letter-spacing: 0em;
+    color: var(--dark_heading_font_color);
+}
+.diff_area_content{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.different_area{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.diff_area_img{
+    max-width: 606px;
+    max-height: 382px;
+    border-radius: 80px, 0px, 80px, 0px
+}
+.diff_area_img img{
+    height: 100%;
+    width: 100%
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .different_area{
+        flex-direction: row;
+        gap: 80px; 
+    } 
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+}
+@media only screen and (min-width: 1400px) {
+    .diff_areas_name{
+        grid-column-gap: 80px;
+    }
+}
+

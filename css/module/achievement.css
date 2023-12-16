@@ -109,8 +109,8 @@
     border-radius: var(--achievement_content_box_border_radius);
   }
   .ac_content_image{
-    width: var(--achievement_content_box_big_img_size);
-    height: var(--achievement_content_box_big_img_size);
+    max-width: var(--achievement_content_box_big_img_size);
+    max-height: var(--achievement_content_box_big_img_size);
   }
   .ac_info{
     align-items: start;
